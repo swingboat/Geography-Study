@@ -1,0 +1,692 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>高中地理大题答题模板：具体事例版</title>
+  <style>
+    :root {
+      --ink: #1f2933;
+      --muted: #5b6773;
+      --line: #d8dee6;
+      --soft: #f5f7fa;
+      --accent: #1f6f78;
+      --accent-soft: #e8f4f5;
+      --warn: #8a5a00;
+      --warn-soft: #fff6df;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: #ffffff;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", Arial, sans-serif;
+      line-height: 1.58;
+      font-size: 15px;
+    }
+
+    main {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 32px 36px 48px;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: 30px;
+      line-height: 1.25;
+      color: #102a43;
+      letter-spacing: 0;
+    }
+
+    .subtitle {
+      margin: 0 0 22px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    h2 {
+      margin: 28px 0 12px;
+      padding-bottom: 6px;
+      border-bottom: 2px solid var(--accent);
+      font-size: 21px;
+      color: #12343b;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    h3 {
+      margin: 18px 0 8px;
+      font-size: 17px;
+      color: #243b53;
+      break-after: avoid;
+      page-break-after: avoid;
+    }
+
+    p {
+      margin: 8px 0;
+    }
+
+    ul, ol {
+      margin: 8px 0 12px 24px;
+      padding: 0;
+    }
+
+    li {
+      margin: 3px 0;
+    }
+
+    .toc {
+      margin: 20px 0 26px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      background: var(--soft);
+      border-radius: 8px;
+    }
+
+    .toc h2 {
+      margin: 0 0 8px;
+      padding: 0;
+      border: 0;
+      font-size: 18px;
+    }
+
+    .toc ol {
+      columns: 2;
+      column-gap: 34px;
+      margin-bottom: 0;
+    }
+
+    .note {
+      margin: 14px 0;
+      padding: 12px 14px;
+      border-left: 4px solid var(--accent);
+      background: var(--accent-soft);
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .warn {
+      margin: 14px 0;
+      padding: 12px 14px;
+      border-left: 4px solid var(--warn);
+      background: var(--warn-soft);
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .template {
+      margin: 10px 0 14px;
+      padding: 12px 14px;
+      border: 1px solid var(--line);
+      background: #fbfcfd;
+      border-radius: 6px;
+      white-space: pre-line;
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+      font-size: 13.5px;
+      line-height: 1.65;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 12px 0 16px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    th, td {
+      border: 1px solid var(--line);
+      padding: 8px 10px;
+      vertical-align: top;
+      text-align: left;
+    }
+
+    th {
+      background: var(--soft);
+      color: #243b53;
+      font-weight: 700;
+    }
+
+    .case {
+      margin: 18px 0 22px;
+      break-inside: avoid;
+      page-break-inside: avoid;
+    }
+
+    .case-label {
+      display: inline-block;
+      margin: 0 0 6px;
+      padding: 2px 8px;
+      border-radius: 999px;
+      background: var(--accent-soft);
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 700;
+    }
+
+    .footer {
+      margin-top: 34px;
+      padding-top: 14px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @page {
+      size: A4;
+      margin: 14mm 13mm;
+    }
+
+    @media print {
+      body {
+        font-size: 12.5px;
+      }
+
+      main {
+        max-width: none;
+        padding: 0;
+      }
+
+      h1 {
+        font-size: 24px;
+      }
+
+      h2 {
+        font-size: 17px;
+        margin-top: 18px;
+      }
+
+      h3 {
+        font-size: 14px;
+        margin-top: 12px;
+      }
+
+      .toc {
+        border-radius: 0;
+      }
+
+      .toc ol {
+        columns: 2;
+      }
+
+      .template {
+        font-size: 11.5px;
+        line-height: 1.5;
+        padding: 8px 10px;
+      }
+
+      .case {
+        margin: 12px 0 16px;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+<body>
+<main>
+  <h1>高中地理大题答题模板：具体事例版</h1>
+  <p class="subtitle">适合期中/高考综合题复习打印。使用方法：先识别材料属于哪类事例，再把模板中的关键词替换成材料中的具体地名、产业、资源和问题。</p>
+
+  <section class="note">
+    <strong>总口诀：</strong>资源/条件 → 开发/变化 → 影响/问题 → 措施/意义。<br>
+    也就是：有什么 → 怎么用 → 带来什么 → 怎么优化。
+  </section>
+
+  <nav class="toc">
+    <h2>目录</h2>
+    <ol>
+      <li>资源型城市转型类</li>
+      <li>乡村振兴/产业结构升级类</li>
+      <li>新能源开发/西电东送/西氢东送类</li>
+      <li>光伏治沙类</li>
+      <li>湿地保护/河口围垦类</li>
+      <li>小流域综合治理类</li>
+      <li>农业区位类</li>
+      <li>工业区位/产业转移类</li>
+      <li>交通建设类</li>
+      <li>国际合作/经济走廊类</li>
+      <li>门户城市/城市辐射类</li>
+      <li>粮食安全/耕地保护类</li>
+      <li>生态脆弱区治理类</li>
+      <li>万能组合句</li>
+    </ol>
+  </nav>
+
+  <section id="resource-city" class="case">
+    <h2>一、资源型城市转型类</h2>
+    <p><span class="case-label">典型材料</span> 攀枝花、焦作、大庆、阜新、山西煤炭城市。</p>
+    <p><strong>常问：</strong>资源开发作用、衰退困境、转型措施。</p>
+
+    <h3>1. 资源开发对城市兴起的作用</h3>
+    <div class="template">依托……资源，带动采矿、加工、冶炼等相关产业发展；
+吸引人口和劳动力集聚，增加就业机会；
+促进交通、能源、市政等基础设施建设；
+推动城市经济增长和城市规模扩大。</div>
+
+    <p><strong>例：攀枝花铁矿开发</strong></p>
+    <div class="template">依托铁矿资源，带动采矿、钢铁、冶金等产业发展；
+吸引人口集聚，增加就业；
+促进交通和市政基础设施建设；
+推动攀枝花城市兴起和繁荣。</div>
+
+    <h3>2. 资源型城市衰退困境</h3>
+    <div class="template">资源趋于枯竭，传统资源型产业衰退；
+产业结构单一，经济抗风险能力弱；
+就业岗位减少，居民收入下降；
+长期开发造成生态破坏和环境污染；
+城市发展动力不足，转型压力大。</div>
+
+    <h3>3. 转型措施</h3>
+    <div class="template">延长资源产业链，提高产品附加值；
+发展替代产业，推动产业多元化；
+发展旅游、文创、现代服务业等新兴产业；
+加强矿区生态修复和环境治理；
+完善交通、公共服务等基础设施；
+加大科技投入和政策扶持。</div>
+
+    <h3>4. 如果题目说“采矿文化旅游城市”</h3>
+    <div class="template">保护和修复矿业遗址；
+建设采矿文化博物馆、工业遗产景区、研学基地；
+挖掘城市工业文化，打造旅游品牌；
+发展文创、餐饮、住宿等配套产业；
+加强生态修复，改善旅游环境。</div>
+  </section>
+
+  <section id="rural" class="case">
+    <h2>二、乡村振兴/产业结构升级类</h2>
+    <p><span class="case-label">典型材料</span> 贵州鲤鱼村、浙江乡村、少数民族村寨、特色农业村。</p>
+    <p><strong>常问：</strong>产业结构变化、积极影响、发展措施。</p>
+
+    <h3>1. 产业结构升级表现</h3>
+    <div class="template">由传统种植业为主，转向特色农业、农产品加工、乡村旅游共同发展；
+第一产业内部向特色化、规模化、品牌化发展；
+第二产业发展农产品加工，提高附加值；
+第三产业发展旅游、民宿、餐饮、电商等服务业；
+推动一二三产业融合发展，产业结构由单一变多元。</div>
+
+    <p><strong>例：贵州鲤鱼村</strong></p>
+    <div class="template">由单一农业转向小龙虾养殖、桑蚕、矿泉水加工和乡村旅游共同发展；
+发展农家乐、民族文化体验等第三产业；
+推动一二三产业融合，产业结构更加多元。</div>
+
+    <h3>2. 乡村振兴积极影响</h3>
+    <div class="template">促进特色产业发展，增加村民收入；
+提供就近就业机会，减少劳动力外流；
+完善道路、住房、公共服务等基础设施；
+改善村庄环境和人居条件；
+保护和传承地方文化；
+推动乡村经济多元化，增强发展活力。</div>
+
+    <h3>3. 发展措施</h3>
+    <div class="template">因地制宜发展特色农业；
+延长农产品加工链，提高附加值；
+发展乡村旅游、民宿、电商等服务业；
+改善交通、通信、供水等基础设施；
+加强生态环境治理和村庄美化；
+打造地方品牌，扩大市场影响力。</div>
+  </section>
+
+  <section id="energy" class="case">
+    <h2>三、新能源开发/西电东送/西氢东送类</h2>
+    <p><span class="case-label">典型材料</span> 西氢东送、风光基地、特高压输电、绿电制氢。</p>
+    <p><strong>常问：</strong>区位条件、意义、影响。</p>
+
+    <h3>1. 新能源基地建设条件</h3>
+    <div class="template">太阳能/风能资源丰富；
+土地面积广，地价较低；
+人口稀少，对生产生活干扰小；
+靠近输电线路或能源通道，便于能源外送；
+政策支持；
+东部能源需求量大，市场广阔。</div>
+
+    <p><strong>例：西北风光基地</strong></p>
+    <div class="template">西北地区晴天多、太阳辐射强，风能资源丰富；
+荒漠、戈壁面积广，建设用地充足；
+通过特高压线路可向东部能源消费区输电。</div>
+
+    <h3>2. 对输入地的意义</h3>
+    <div class="template">缓解能源短缺；
+优化能源消费结构；
+减少煤炭等化石能源使用；
+降低污染物和碳排放；
+促进工业低碳转型；
+改善生态环境。</div>
+
+    <p><strong>例：西氢东送到京津冀</strong></p>
+    <div class="template">替代部分化石能源制氢和交通用氢；
+减少污染物和二氧化碳排放；
+优化京津冀能源消费结构；
+促进区域绿色低碳发展。</div>
+
+    <h3>3. 对输出地的意义</h3>
+    <div class="template">将资源优势转化为经济优势；
+带动能源开发、装备制造、运输等相关产业发展；
+增加就业和财政收入；
+促进基础设施建设；
+推动区域经济发展。</div>
+  </section>
+
+  <section id="solar-desert" class="case">
+    <h2>四、光伏治沙类</h2>
+    <p><span class="case-label">典型材料</span> 塔拉滩光伏园区、沙漠光伏、光伏+牧业。</p>
+    <p><strong>常问：</strong>生态问题、光伏改善植被原因、引入牧业意义。</p>
+
+    <h3>1. 原有生态问题</h3>
+    <div class="template">气候干旱/半干旱，降水少；
+过度放牧或不合理开发导致植被减少；
+地表裸露，风蚀增强；
+出现草场退化、土地荒漠化。</div>
+
+    <h3>2. 光伏板促进植被恢复</h3>
+    <div class="template">光伏板遮挡太阳辐射，降低地表温度；
+减弱蒸发，增加土壤水分；
+减小近地面风速，减轻风蚀；
+为植物生长创造较好的水热条件。</div>
+
+    <section class="warn">
+      <strong>注意：</strong>如果只问“主要原因”，优先写：遮阴降温，减弱蒸发，提高土壤含水量。
+    </section>
+
+    <h3>3. 光伏+牧业意义</h3>
+    <div class="template">提高土地利用率；
+控制杂草高度，减少火灾隐患；
+增加牧民收入；
+实现生态保护与经济发展协调。</div>
+  </section>
+
+  <section id="wetland" class="case">
+    <h2>五、湿地保护/河口围垦类</h2>
+    <p><span class="case-label">典型材料</span> 河口湿地、滨海滩涂、候鸟栖息地、围垦养殖。</p>
+    <p><strong>常问：</strong>湿地功能、湿地减少影响、保护措施。</p>
+
+    <h3>1. 湿地功能</h3>
+    <div class="template">提供生物栖息地，维护生物多样性；
+调蓄洪水，减轻洪涝灾害；
+抵御风暴潮，保护海岸；
+净化水质；
+调节局地气候；
+具有生态、科研和旅游价值。</div>
+
+    <h3>2. 湿地减少的不利影响</h3>
+    <div class="template">生物栖息地减少，生物多样性下降；
+调蓄洪水和抵御风暴潮能力减弱；
+水质净化能力下降；
+海岸生态系统受损；
+生态安全风险增大。</div>
+
+    <h3>3. 保护措施</h3>
+    <div class="template">控制围垦和过度开发；
+退养还湿、退耕还湿；
+恢复芦苇、滩涂、浅水区等湿地生态系统；
+建立自然保护区；
+加强监测和执法；
+发展生态旅游，减少破坏性利用。</div>
+  </section>
+
+  <section id="basin" class="case">
+    <h2>六、小流域综合治理类</h2>
+    <p><span class="case-label">典型材料</span> 上游山地森林、中游水库、下游农田、河口湿地。</p>
+    <p><strong>常问：</strong>上游破坏对下游影响、流域治理措施。</p>
+
+    <h3>1. 上游植被破坏的影响</h3>
+    <div class="template">植被减少，涵养水源能力下降；
+坡面径流增强，水土流失加剧；
+泥沙进入河道，河床抬高；
+下游泄洪能力下降，洪涝风险增加；
+水库淤积加重，调蓄能力下降。</div>
+
+    <h3>2. 小流域治理措施</h3>
+    <div class="template">上游植树造林，恢复植被，保持水土；
+中游合理建设水库，调节径流；
+下游疏浚河道，加固堤防，减少洪涝；
+河口保护湿地，控制围垦；
+全流域统一规划、协调管理。</div>
+
+    <section class="note">
+      <strong>答题顺序：</strong>上游 → 中游 → 下游 → 河口。
+    </section>
+  </section>
+
+  <section id="agriculture" class="case">
+    <h2>七、农业区位类</h2>
+    <p><span class="case-label">典型材料</span> 东北商品粮、新疆棉花、河谷农业、绿洲农业、城郊农业。</p>
+    <p><strong>常问：</strong>农业发展的有利条件、不利条件、措施。</p>
+
+    <h3>1. 有利条件</h3>
+    <div class="template">地形平坦，便于耕作；
+光照充足/热量充足/昼夜温差大，有利于作物生长和养分积累；
+水源充足，灌溉便利；
+土壤肥沃；
+土地面积广，适合规模化经营；
+市场需求量大；
+交通便利，便于农产品外运；
+政策支持，农业技术水平提高。</div>
+
+    <h3>2. 不利条件</h3>
+    <div class="template">水资源不足；
+热量不足或生长期短；
+旱涝、低温、风沙等自然灾害多发；
+土壤盐碱化或肥力不足；
+交通不便，市场距离远。</div>
+
+    <h3>3. 措施</h3>
+    <div class="template">发展节水灌溉；
+培育优良品种；
+加强农田水利建设；
+改良土壤；
+发展农产品加工，延长产业链；
+打造品牌，扩大市场。</div>
+
+    <p><strong>例：新疆棉花</strong></p>
+    <div class="template">光照充足，昼夜温差大，有利于棉花生长；
+灌溉水源来自高山冰雪融水；
+土地面积广，适合机械化种植；
+但水资源短缺，应发展滴灌等节水农业。</div>
+  </section>
+
+  <section id="industry" class="case">
+    <h2>八、工业区位/产业转移类</h2>
+    <p><span class="case-label">典型材料</span> 电子装配迁移、服装厂转移、钢铁工业布局、外资企业回迁。</p>
+
+    <h3>1. 工业区位优势</h3>
+    <div class="template">原料丰富；
+能源充足；
+市场广阔；
+交通便利；
+劳动力丰富且成本较低；
+技术水平高；
+产业基础好，协作条件好；
+政策支持；
+基础设施完善。</div>
+
+    <h3>2. 产业转移原因</h3>
+    <div class="template">转出地劳动力、土地、环保等成本上升；
+产业升级需要腾出发展空间；
+承接地劳动力成本低；
+承接地市场潜力大；
+承接地政策优惠；
+交通和基础设施改善；
+全球产业分工深化。</div>
+
+    <h3>3. 对转出地影响</h3>
+    <div class="template">有利于产业结构升级；
+改善环境质量；
+但可能造成就业岗位减少。</div>
+
+    <h3>4. 对承接地影响</h3>
+    <div class="template">促进工业化和经济发展；
+增加就业，提高居民收入；
+带动基础设施建设；
+但可能带来环境污染和资源压力。</div>
+  </section>
+
+  <section id="transport" class="case">
+    <h2>九、交通建设类</h2>
+    <p><span class="case-label">典型材料</span> 高铁、公路、港口、铁路、跨境通道。</p>
+    <p><strong>常问：</strong>建设原因、影响、选线因素。</p>
+
+    <h3>1. 建设原因</h3>
+    <div class="template">加强区域联系；
+促进资源开发和产品外运；
+带动沿线经济发展；
+完善交通运输网络；
+促进旅游业发展；
+加强民族团结和国防安全；
+推动区域协调发展。</div>
+
+    <h3>2. 有利影响</h3>
+    <div class="template">缩短运输时间，降低运输成本；
+促进人员、物资、信息流动；
+带动沿线产业发展；
+促进城市和区域经济联系；
+改善基础设施；
+扩大市场范围。</div>
+
+    <h3>3. 选线考虑</h3>
+    <div class="template">尽量经过地形平坦地区，降低建设难度；
+避开地质灾害多发区；
+连接重要城市、资源地和交通节点；
+兼顾经济效益和生态保护；
+考虑施工技术和建设成本。</div>
+  </section>
+
+  <section id="international" class="case">
+    <h2>十、国际合作/经济走廊类</h2>
+    <p><span class="case-label">典型材料</span> 中巴经济走廊、一带一路、中欧班列。</p>
+    <p><strong>常问：</strong>项目特点、对沿线国家影响、合作意义。</p>
+
+    <h3>1. 投资项目特点</h3>
+    <div class="template">项目类型多样；
+以能源、交通、港口等基础设施为主；
+空间上沿交通走廊、城市和港口布局；
+能源类型多元，包括水电、火电、风电、太阳能等；
+兼顾民生项目，如学校、医院等。</div>
+
+    <h3>2. 对合作国的有利影响</h3>
+    <div class="template">完善交通、电力、港口等基础设施；
+缓解能源短缺；
+促进资源开发和产业发展；
+增加就业，提高居民收入；
+加强区域联系；
+扩大对外贸易；
+提升国际合作水平。</div>
+
+    <p><strong>例：中巴经济走廊</strong></p>
+    <div class="template">完善巴基斯坦交通和能源基础设施；
+缓解电力短缺；
+带动港口、工业和贸易发展；
+增加就业；
+加强巴基斯坦内陆与港口的联系；
+提升其区域交通和贸易地位。</div>
+  </section>
+
+  <section id="city" class="case">
+    <h2>十一、门户城市/城市辐射类</h2>
+    <p><span class="case-label">典型材料</span> 上海、郑州、港口城市、边境口岸城市。</p>
+
+    <h3>1. 门户城市模板</h3>
+    <div class="template">依托港口/口岸/交通节点优势；
+承担商品集散、仓储、报关、物流中转等功能；
+加强区域与外部市场联系；
+促进贸易、物流和相关服务业发展；
+提升城市对外开放水平。</div>
+
+    <h3>2. 核心城市辐射影响</h3>
+    <div class="template">带动周边地区产业发展；
+促进交通、信息、资金、人才等要素流动；
+加强区域分工协作；
+提升区域整体竞争力；
+推动区域协调发展。</div>
+
+    <h3>3. 卫星城市模板</h3>
+    <div class="template">位于大城市外围；
+承接中心城市外迁的人口、工业和居住功能；
+与中心城市通勤联系密切；
+分担中心城市人口、交通和用地压力；
+促进都市圈协调发展。</div>
+  </section>
+
+  <section id="food" class="case">
+    <h2>十二、粮食安全/耕地保护类</h2>
+    <p><span class="case-label">典型材料</span> 中国粮食安全、高标准农田、耕地红线。</p>
+
+    <h3>1. 保障粮食安全措施</h3>
+    <div class="template">严守耕地红线，保护永久基本农田；
+推进高标准农田建设；
+提高农业科技水平，培育优良品种；
+提高单位面积产量；
+完善粮食储备和流通体系；
+适度进口，调剂余缺；
+加强农业基础设施建设；
+落实藏粮于地、藏粮于技。</div>
+
+    <h3>2. 耕地资源问题</h3>
+    <div class="template">人均耕地少；
+优质耕地少；
+耕地后备资源不足；
+耕地空间分布不均；
+建设占用、生态退耕等导致耕地压力增大。</div>
+  </section>
+
+  <section id="fragile" class="case">
+    <h2>十三、生态脆弱区治理类</h2>
+    <p><span class="case-label">典型材料</span> 北方农牧交错带、黄土高原、石漠化山区。</p>
+
+    <h3>1. 生态退化原因</h3>
+    <div class="template">自然原因：气候干旱/降水集中、地形坡度大、土壤抗蚀能力弱、植被稀疏。
+人为原因：过度开垦、过度放牧、过度樵采、不合理工程建设。</div>
+
+    <h3>2. 治理措施</h3>
+    <div class="template">退耕还林还草；
+控制载畜量；
+植树种草，恢复植被；
+优化土地利用结构；
+发展节水农业和生态农业；
+加强水土保持工程建设；
+发展替代产业，减轻生态压力；
+加强宣传、监管和生态补偿。</div>
+  </section>
+
+  <section id="universal" class="case">
+    <h2>十四、最推荐背的万能组合句</h2>
+
+    <h3>1. 遇到发展类</h3>
+    <div class="template">依托当地……资源和……区位优势，发展……产业；
+延长产业链，提高产品附加值；
+带动相关产业发展，增加就业和居民收入；
+完善基础设施，促进区域联系；
+同时加强生态保护和环境治理，实现可持续发展。</div>
+
+    <h3>2. 遇到生态类</h3>
+    <div class="template">由于……，导致植被减少/水土流失/湿地萎缩/土地退化；
+应采取退耕还林还草、恢复植被、控制开发强度、加强生态修复和监管等措施；
+有利于改善生态环境，维护生物多样性，促进区域可持续发展。</div>
+
+    <h3>3. 遇到影响类</h3>
+    <div class="template">经济上，促进产业发展和经济增长；
+社会上，增加就业，提高居民收入，改善基础设施；
+生态上，有利于生态修复或减少污染，但不合理开发可能造成生态破坏；
+区域上，加强区域联系，促进协调发展。</div>
+
+    <section class="warn">
+      <strong>最关键：</strong>每道题都要把模板里的“……”换成材料中的具体词。不要只写“发展特色产业”，要写“发展小龙虾养殖、桑蚕、矿泉水加工和乡村旅游”；不要只写“改善能源结构”，要写“用绿氢替代煤炭、天然气等化石能源”。
+    </section>
+  </section>
+
+  <section class="footer">
+    <p>生成日期：2026-05-11。建议打印时选择 A4、默认页边距或系统页边距，勾选“背景图形/背景颜色”可保留模板框底色。</p>
+  </section>
+</main>
+</body>
+</html>
